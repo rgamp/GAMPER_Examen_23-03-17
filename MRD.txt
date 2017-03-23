@@ -1,0 +1,9 @@
+
+USER (id_user, nom_user, password) 
+PROJET (id_proj, nom_proj, nature_proj) 
+PLANIFICATION (id_plani, date_crea_proj, date_fin_proj, duree, #id_proj) 
+RESSOURCES (id_ressource, logiciel, budget_util, nb_dessus, #id_proj) 
+SYNTHESE (id_synthese, note_synthese, #id_proj) 
+CLIENT (id_client, info_client) 
+TRAVAILLE (id_user, id_proj) 
+PROPOSE (id_client, id_proj) 
